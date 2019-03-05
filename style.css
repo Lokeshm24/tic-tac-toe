@@ -1,0 +1,84 @@
+body {
+    background: #20262E;
+}
+
+.table {
+    border-collapse: collapse;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.col {
+    width: 9vw;
+    height: 8vw;
+    color: #cccccc;
+    font-family: sans-serif;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    font-size: 500%;
+}
+
+.row2 .col2 {
+    border: 2px solid rgba(255, 255, 255, 0.6);
+}
+
+.row2 .col1,.row2 .col3 {
+    border-top: 2px solid rgba(255, 255, 255, 0.6);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+}
+
+.row1 .col2,.row3 .col2 {
+    border-left: 2px solid rgba(255, 255, 255, 0.6);
+    border-right: 2px solid rgba(255, 255, 255, 0.6);
+}
+
+#win{
+    width: 99vw;
+    display: none;
+    height: 97vh;
+    position: absolute;
+    color: #eeeeee;
+    font-size: 200%;
+    text-align: center;
+    font-family: 'Arial';
+    background-color: rgba(0,0,0,0.8);
+}
+
+#player{
+    position: absolute;
+    top: 50%;
+    padding: 50px;
+    margin-top: -70px;
+    border: 2px solid #cccccc;
+    transform: translate(-50%);
+}
+
+#again{
+    padding: 5px 50px;
+    border: 2px solid #cccccc;
+    border-radius: 50px;
+    position: absolute;
+    top: 70%;
+    cursor: pointer;
+    transform: translate(-50%);
+}
+
+.label{
+    font-family: monospace;
+    font-size: 250%;
+    float: left;
+    color: aquamarine;
+    margin: auto 50px;
+}
+
+.hint{
+    font-family: monospace;
+    font-size: 150%;
+    float: right;
+    color: chocolate;
+    margin-right: 50px;
+    margin-top: 10px;
+}
